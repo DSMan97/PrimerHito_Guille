@@ -14,7 +14,25 @@ class TablasViewController: UIViewController, UITableViewDelegate,UITableViewDat
     }
     
    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        <#code#>
+        let celda = tableView.dequeueReusableCell(withIdentifier: "idmicelda") as! celdaprototipo
+    
+    
+    if indexPath.row == 0{
+        celda.lblNombre?.text="Guille1"
+    }
+    else if indexPath.row == 1{
+        celda.lblNombre?.text="Guille2"
+    }
+    else if indexPath.row == 2{
+        celda.lblNombre?.text="Guille3"
+    }
+    else if indexPath.row == 3{
+        celda.lblNombre?.text="Guille4"
+    }
+    else if indexPath.row == 4{
+        celda.lblNombre?.text="Guille5"
+    }
+    return celda
     }
     
     @IBOutlet var miTabla:TablasViewController?

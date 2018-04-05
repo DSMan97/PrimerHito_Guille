@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0745F01B2076287A0004330F /* TablasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0745F01A2076287A0004330F /* TablasViewController.swift */; };
+		0745F01D207640410004330F /* celdaprototipo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0745F01C207640410004330F /* celdaprototipo.swift */; };
 		07BFC1C02076253A0072E6D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BFC1BF2076253A0072E6D4 /* AppDelegate.swift */; };
 		07BFC1C22076253A0072E6D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BFC1C12076253A0072E6D4 /* ViewController.swift */; };
 		07BFC1C52076253A0072E6D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07BFC1C32076253A0072E6D4 /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		0745F01A2076287A0004330F /* TablasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TablasViewController.swift; sourceTree = "<group>"; };
+		0745F01C207640410004330F /* celdaprototipo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = celdaprototipo.swift; sourceTree = "<group>"; };
 		07BFC1BC2076253A0072E6D4 /* PrimerHito_Guille.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PrimerHito_Guille.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07BFC1BF2076253A0072E6D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		07BFC1C12076253A0072E6D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				07BFC1C82076253A0072E6D4 /* LaunchScreen.storyboard */,
 				07BFC1CB2076253A0072E6D4 /* Info.plist */,
 				0745F01A2076287A0004330F /* TablasViewController.swift */,
+				0745F01C207640410004330F /* celdaprototipo.swift */,
 			);
 			path = PrimerHito_Guille;
 			sourceTree = "<group>";
@@ -262,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0745F01D207640410004330F /* celdaprototipo.swift in Sources */,
 				0745F01B2076287A0004330F /* TablasViewController.swift in Sources */,
 				07BFC1C22076253A0072E6D4 /* ViewController.swift in Sources */,
 				07BFC1C02076253A0072E6D4 /* AppDelegate.swift in Sources */,
