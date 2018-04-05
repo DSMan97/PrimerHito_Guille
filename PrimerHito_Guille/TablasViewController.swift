@@ -8,8 +8,17 @@
 
 import UIKit
 
-class TablasViewController: UIViewController {
-    @IBOutlet var lbTabla:TablasViewController?
+class TablasViewController: UIViewController, UITableViewDelegate,UITableViewDataSource {
+    func tableView( _ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 5
+    }
+    
+   func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        <#code#>
+    }
+    
+    @IBOutlet var miTabla:TablasViewController?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
